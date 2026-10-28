@@ -27,7 +27,7 @@ from netflix_titles
 group by type;
 select count(*) as total_Movie
 from netflix_titles
-where type = 'MOVIE'
+where type = 'Movie'
 and country Like '%INDIA%';
 select country
 from netflix_titles
